@@ -48,32 +48,32 @@ $ java -jar target/desafioitau-0.0.1-SNAPSHOT.jar
 A API poderá ser acessada em [localhost:8080](http://localhost:8080).
 O Swagger poderá ser visualizado em [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
-## 📥 Endpoints
+## 📥 API Endpoints
 
-### POST `/transacoes`
+Para fazer as requisições HTTP abaixo, foi utilizada a ferramenta [Postman]:
 
-Recebe uma nova transação.
+POST `/transacoes`
+```
+- Recebe uma nova transação.
 
-#### Request Body
-```json
+Request Body
+json
 {
   "valor": 12.5,
   "timestamp": "2025-05-07T14:30:00.000Z"
 }
+```
+POST `/estatísticas`
+```
+- Retorna dados os calculos da estatistica.
 
-
-### POST `/estatísticas`
-
-Retona dados da API.
-
-#### Request Body
-```json
+Request Body
+json
 {
-  {
     "count": 1,
     "sum": 123.45,
     "avg": 123.45,
     "min": 123.45,
     "max": 123.45
 }
-}
+```
