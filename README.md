@@ -1,6 +1,6 @@
 # API de Estatísticas de Transações
 
-Este projeto é uma API REST desenvolvida em **Java 17** utilizando o **Spring Boot**. A API é responsável por receber transações financeiras e fornecer estatísticas em tempo real sobre essas transações.
+Este projeto é uma API REST desenvolvida em **Java** utilizando o **Spring Boot**. A API é responsável por receber transações financeiras e fornecer estatísticas em tempo real sobre essas transações.
 
 ## ✨ Tecnologias Utilizadas
 
@@ -16,6 +16,7 @@ Este projeto é uma API REST desenvolvida em **Java 17** utilizando o **Spring B
 
 - API REST
 - Tratamento de respostas de erro
+- Testes automatizados 
 - Geração automática do Swagger com a OpenAPI 3
 
 ## 📌 Objetivo do Projeto
@@ -65,7 +66,7 @@ json
 ```
 POST `/estatísticas`
 ```
-- Retorna dados os calculos da estatistica.
+- Retorna os calculos da estatistica.
 
 Request Body
 json
