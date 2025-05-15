@@ -64,7 +64,7 @@ json
   "timestamp": "2025-05-07T14:30:00.000Z"
 }
 ```
-POST `/estatísticas`
+GET `/estatísticas`
 ```
 - Retorna os calculos da estatistica.
 
